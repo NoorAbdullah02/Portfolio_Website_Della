@@ -23,15 +23,12 @@ app.get('/api/health', (req, res) => {
 app.use('/api/contact', contactRouter)
 app.use('/api/chat', chatRouter)
 app.use('/api/admin', adminRouter)
-// Serve frontend static files
 app.use(express.static(path.join(__dirname, '../frontend/dist')))
 
-// Fallback for unknown API routes
 app.use('/api', (req, res) => {
   res.status(404).json({ error: 'Not found.' })
 })
 
-// Handle client-side routing, return all requests to React app
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '../frontend/dist/index.html'))
 })
