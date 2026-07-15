@@ -19,6 +19,10 @@ app.use('/api/contact', contactRouter)
 app.use('/api/chat', chatRouter)
 app.use('/api/admin', adminRouter)
 
+app.get('/', (req, res) => {
+  res.send('Backend API is running. Please open the frontend at http://localhost:3000')
+})
+
 // Fallback for unknown API routes
 app.use('/api', (req, res) => {
   res.status(404).json({ error: 'Not found.' })
