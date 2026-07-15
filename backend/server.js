@@ -1,9 +1,14 @@
 import express from 'express'
 import cors from 'cors'
 import 'dotenv/config'
+import path from 'path'
+import { fileURLToPath } from 'url'
 import contactRouter from './routes/contact.js'
 import chatRouter from './routes/chat.js'
 import adminRouter from './routes/admin.js'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
 const app = express()
 const PORT = process.env.PORT || 3001
@@ -18,14 +23,17 @@ app.get('/api/health', (req, res) => {
 app.use('/api/contact', contactRouter)
 app.use('/api/chat', chatRouter)
 app.use('/api/admin', adminRouter)
-
-app.get('/', (req, res) => {
-  res.send('Backend API is running. Please open the frontend at http://localhost:3000')
-})
+// Serve frontend static files
+app.use(express.static(path.join(__dirname, '../frontend/dist')))
 
 // Fallback for unknown API routes
 app.use('/api', (req, res) => {
   res.status(404).json({ error: 'Not found.' })
+})
+
+// Handle client-side routing, return all requests to React app
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../frontend/dist/index.html'))
 })
 
 app.use((err, req, res, next) => {
