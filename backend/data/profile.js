@@ -1,0 +1,107 @@
+// Grounding context for the AI assistant. Kept as a plain string so it can
+// be dropped straight into the system prompt — this is the only "knowledge"
+// the assistant is allowed to draw on about Della.
+export const PROFILE_CONTEXT = `
+Name: Mursheda Nusrat Della
+Location: Laxmipur Vatapara, Rajshahi, Bangladesh
+Email: nusratdella.026@bauet.ac.bd | Phone: +8801707533471
+LinkedIn: https://www.linkedin.com/in/nusratdella026
+
+CURRENT ROLE
+Lecturer, Department of Information & Communication Engineering (ICE),
+Bangladesh Army University of Engineering and Technology (BAUET), Natore.
+December 2022 - Present.
+
+EDUCATION
+- M.Sc. in Computer Science & Engineering, Rajshahi University of Engineering &
+  Technology (RUET). Pursuing, CGPA 3.58/4.00, coursework completed.
+- B.Sc. in Information & Communication Engineering, BAUET, Natore. 2022, CGPA 3.85/4.00.
+- HSC (Science), Rajshahi Govt. City College, Rajshahi. 2017, GPA 5.00.
+- SSC (Science), Mission Girls High School, Rajshahi. 2015, GPA 5.00.
+
+EMPLOYMENT HISTORY
+1. Lecturer, ICE Dept, BAUET, Natore — Dec 2022 to present.
+2. Sales and Records Officer (Part-time), AmazonPify Ltd (part of Amazon BD) — Sep-Dec 2022.
+3. Brand Promoter (Intern), Uber Technologies Inc, Rajshahi — Feb-May 2021.
+4. Technological Engineer (Intern), Grameenphone (GP), Rajshahi — 1 month.
+5. Fast Track Future Leader (Intern), HyperTag Solution Limited, Dhaka — 3 months.
+6. Graphics Design (Intern), Women ICT Freelancer and Entrepreneur Development,
+   Rajshahi City Corporation — 3 months.
+
+RESEARCH INTERESTS
+Artificial Intelligence, Digital Image Processing, Machine Learning,
+Computer Vision, Data Communication and Computer Networks.
+
+THESES
+- M.Sc. Thesis: "CT-CoherXAI: A Coherence-Driven, Explainable Ensemble Framework
+  for Lung Cancer Classification from Chest CT Images."
+- B.Sc. Thesis: "Developing Generalized Models for COVID-19 Detection by AI Approach."
+
+PUBLICATIONS (9 total, journal & IEEE conference papers)
+1. CT-CoherXAI: A Coherence-Driven, Explainable Ensemble Framework for Lung Cancer
+   Classification from Chest CT Images. Della*, Dr. Md. Shahid Uz Zaman. IEEE QPAIN 2026,
+   CUET, Chattogram, April 2026. (Lead author)
+2. Design and Performance Evaluation of a Microstrip Patch Antenna for CubeSats
+   Application. IEEE QPAIN 2026. (Co-author)
+3. Advancing Brain Stroke Prediction Through Attention-Based Neural Architectures for
+   Temporal Data Analysis. IEEE COMPAS 2025, Islamic University, Kushtia. (Co-author)
+4. Screening depression among university students utilizing GHQ-12 and machine
+   learning. Heliyon, Vol 10, Issue 17, Sep 2024. (Co-author)
+5. Developing Generalized Models for COVID-19 Detection and Outbreak Prediction by AI
+   Approach. Journal of Engineering and Applied Science, Vol 07, No 01, Dec 2023. (Co-author)
+6. Blockchain Based Secure and Decentralized Smart Licensing of Charging Vehicles for
+   Rajshahi City Corporation. IEEE ICICT4SD 2023, Dhaka. (Co-author)
+7. A Real-time Attendance Monitoring System for Election Voter using Face Recognition
+   Approach. IEEE CS BDC Summer Symposium 2023. (Co-author)
+8. EEG-Based Multi-Class Emotion Recognition using Hybrid LSTM Approach. IJIRCST,
+   Vol 11, Issue 3, May 2023. (Co-author)
+9. D-Shaped Photonic Crystal Fiber Plasmonic Bio-Sensor for Biomaterial Detection.
+   IJCSPUB, Volume 13, Issue 2, May 2023. (Co-author)
+
+PROJECTS
+- Student Management System Website (Java, PHP, JavaScript, HTML) — Programmer, Testing, Idea.
+- Attendance Management System (PHP, JavaScript, HTML) — Programmer.
+- Campus Network Design (Cisco Packet Tracer, CLI) — Programmer.
+- Password-Based Door Lock Security System (Arduino Uno, C++, Keypad) — Programmer, Designer, Idea.
+- Blood Pressure Monitoring System (Arduino Uno, C++) — Programmer, Designer, Idea.
+
+TEACHING INTERESTS
+Fundamentals of ICT, Digital Electronics, Structured Programming (C), OOP (C++),
+Data Structures & Algorithms, Java & Network Programming, AI & Neural Networks,
+Information Theory & Coding, Internet & Web Programming, Data Communication,
+Wireless Communication, Optical Fiber Communication, Computer Networks,
+System Analysis & Software Engineering, Network Security & Cyber Law,
+Digital Signal Processing, Database Management Systems.
+
+TECHNICAL SKILLS
+Languages: C, C++, Python (ML), Java, PHP.
+Database: MySQL.
+Web: HTML, CSS, Bootstrap, React JS.
+OS: Windows.
+
+ACHIEVEMENTS
+Dean's Award (BAUET, 2020-21); Champion & Best Speaker - BAUET Debate Competition
+(2021); Champion & Best Speaker - Intra Department Debating Program (2021);
+Participant, Team BAUET - Prothom Alo Bondhusova (RU, 2020); Champion & Best
+Speaker - Intra University Debating Program (2019); Champion - Woman ICT Day
+Graphics Design Competition (2018); Champion & Best Speaker - Intra College
+Debating Program (2016); Champion - Rajshahi Debating Club Program (2013);
+Division Champion - Matador Master Buster (2013).
+
+LEADERSHIP & EXTRA-CURRICULAR
+Assistant Advisor - BAUET ICT Club (2023-present); Assistant Advisor - BAUET
+Debating Society (2023-present); Assistant Advisor - BAUET Games, Sports &
+Gymnasium Club (2023-present); General Secretary - BAUET ICT Club (2021-22);
+General Secretary - BAUET Debating Society (2020-22); Head of Public & Relations -
+Hult Prize at BAUET (2021-22); Department Ambassador - Mind Strome 2.00 (2021);
+Executive Member - BAUET Career Club (2018-19); Trainer - Graphics Design
+Workshop, RCC (2018, 3 months).
+
+PERSONAL SKILLS
+Organizational leadership, project management, strong decision-making, complex
+problem solving, graphics design, public speaking, service-focused.
+
+LANGUAGES
+English: professional fluency, IELTS overall 6.50 (Listening 6, Reading 6.5,
+Writing 6, Speaking 6.5). Bangla: native.
+`.trim()

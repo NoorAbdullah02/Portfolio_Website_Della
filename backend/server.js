@@ -1,0 +1,34 @@
+import express from 'express'
+import cors from 'cors'
+import 'dotenv/config'
+import contactRouter from './routes/contact.js'
+import chatRouter from './routes/chat.js'
+import adminRouter from './routes/admin.js'
+
+const app = express()
+const PORT = process.env.PORT || 3001
+
+app.use(cors({ origin: process.env.CORS_ORIGIN || 'http://localhost:3000' }))
+app.use(express.json({ limit: '200kb' }))
+
+app.get('/api/health', (req, res) => {
+  res.json({ ok: true, service: 'della-portfolio-backend' })
+})
+
+app.use('/api/contact', contactRouter)
+app.use('/api/chat', chatRouter)
+app.use('/api/admin', adminRouter)
+
+// Fallback for unknown API routes
+app.use('/api', (req, res) => {
+  res.status(404).json({ error: 'Not found.' })
+})
+
+app.use((err, req, res, next) => {
+  console.error('Unhandled error:', err)
+  res.status(500).json({ error: 'Internal server error.' })
+})
+
+app.listen(PORT, () => {
+  console.log(`Della portfolio backend running on http://localhost:${PORT}`)
+})
