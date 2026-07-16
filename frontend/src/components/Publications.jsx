@@ -11,6 +11,12 @@ const THESES = [
 
 const PAPERS = [
   {
+    title: 'COVID-19 Distance Learning Understanding Classification Using Scalogram Based on Transfer Learning and Principal Feature Classifier from EEG Signals (Book Chapter)',
+    venue: 'Machine Learning for Healthcare Informatics, Chapman and Hall/CRC, Taylor & Francis · DOI: 10.1201/9781032650715-10',
+    year: '2026',
+    role: 'Co-author',
+  },
+  {
     title: 'CT-CoherXAI: A Coherence-Driven, Explainable Ensemble Framework for Lung Cancer Classification from Chest CT Images',
     venue: 'IEEE 2nd International Conference on Quantum Photonics, AI, and Networking (QPAIN 2026), CUET, Chattogram',
     year: '2026',
@@ -72,7 +78,7 @@ export default function Publications() {
       <div className="wrap">
         <div className="section-head reveal">
           <div className="eyebrow">Thesis &amp; Publications</div>
-          <h2>Nine papers, two theses, one line of inquiry.</h2>
+          <h2>Ten papers, two theses, one line of inquiry.</h2>
         </div>
 
         <div className="thesis-row reveal">

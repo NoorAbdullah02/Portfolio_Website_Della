@@ -24,7 +24,7 @@ const LEADERSHIP = [
 
 const SKILLS = [
   'Organizational leadership', 'Project management', 'Strong decision-making',
-  'Complex problem solving', 'Graphics design', 'Public speaking', 'Service-focused',
+  'Complex problem solving', 'Graphics design', 'Public worker', 'Service-focused',
 ]
 
 export default function Achievements() {

@@ -13,8 +13,8 @@ Bangladesh Army University of Engineering and Technology (BAUET), Natore.
 December 2022 - Present.
 
 EDUCATION
-- M.Sc. in Computer Science & Engineering, Rajshahi University of Engineering &
-  Technology (RUET). Pursuing, CGPA 3.58/4.00, coursework completed.
+- M.Sc. in Information & Communication Technology, Islamic University, Kushtia, Bangladesh. Pursuing.
+- M.Sc. in Computer Science & Engineering, Rajshahi University of Engineering & Technology (RUET). 2026, CGPA 3.50/4.00.
 - B.Sc. in Information & Communication Engineering, BAUET, Natore. 2022, CGPA 3.85/4.00.
 - HSC (Science), Rajshahi Govt. City College, Rajshahi. 2017, GPA 5.00.
 - SSC (Science), Mission Girls High School, Rajshahi. 2015, GPA 5.00.
@@ -37,30 +37,21 @@ THESES
   for Lung Cancer Classification from Chest CT Images."
 - B.Sc. Thesis: "Developing Generalized Models for COVID-19 Detection by AI Approach."
 
-PUBLICATIONS (9 total, journal & IEEE conference papers)
-1. CT-CoherXAI: A Coherence-Driven, Explainable Ensemble Framework for Lung Cancer
-   Classification from Chest CT Images. Della*, Dr. Md. Shahid Uz Zaman. IEEE QPAIN 2026,
-   CUET, Chattogram, April 2026. (Lead author)
-2. Design and Performance Evaluation of a Microstrip Patch Antenna for CubeSats
-   Application. IEEE QPAIN 2026. (Co-author)
-3. Advancing Brain Stroke Prediction Through Attention-Based Neural Architectures for
-   Temporal Data Analysis. IEEE COMPAS 2025, Islamic University, Kushtia. (Co-author)
-4. Screening depression among university students utilizing GHQ-12 and machine
-   learning. Heliyon, Vol 10, Issue 17, Sep 2024. (Co-author)
-5. Developing Generalized Models for COVID-19 Detection and Outbreak Prediction by AI
-   Approach. Journal of Engineering and Applied Science, Vol 07, No 01, Dec 2023. (Co-author)
-6. Blockchain Based Secure and Decentralized Smart Licensing of Charging Vehicles for
-   Rajshahi City Corporation. IEEE ICICT4SD 2023, Dhaka. (Co-author)
-7. A Real-time Attendance Monitoring System for Election Voter using Face Recognition
-   Approach. IEEE CS BDC Summer Symposium 2023. (Co-author)
-8. EEG-Based Multi-Class Emotion Recognition using Hybrid LSTM Approach. IJIRCST,
-   Vol 11, Issue 3, May 2023. (Co-author)
-9. D-Shaped Photonic Crystal Fiber Plasmonic Bio-Sensor for Biomaterial Detection.
-   IJCSPUB, Volume 13, Issue 2, May 2023. (Co-author)
+PUBLICATIONS (10 total, book chapters, journal & IEEE conference papers)
+1. Book Chapter: COVID-19 Distance Learning Understanding Classification Using Scalogram Based on Transfer Learning and Principal Feature Classifier from EEG Signals. M. M. Haque, S. K. Paul, R. R. Paul, M. K. Islam, Mursheda Nusrat Della*, and S. Fahim. Machine Learning for Healthcare Informatics, Chapman and Hall/CRC, Taylor & Francis, 2026, pp. 127–145. DOI: 10.1201/9781032650715-10. (Co-author)
+2. CT-CoherXAI: A Coherence-Driven, Explainable Ensemble Framework for Lung Cancer Classification from Chest CT Images. Della*, Dr. Md. Shahid Uz Zaman. Presented at: IEEE QPAIN 2026, CUET, Chattogram, April 16-18, 2026. (Lead author)
+3. Design and Performance Evaluation of a Microstrip Patch Antenna for CubeSats Application. Mst. Rabeya Khatun Rikta, Md. Arafat Hossain, Humaira Rashid Koli, A.B.M. Kabir Hossain, Partha Pratim Debnath, Mursheda Nusrat Della*. IEEE QPAIN 2026, April 16-18, 2026. (Co-author)
+4. Advancing Brain Stroke Prediction Through Attention-Based Neural Architectures for Temporal Data Analysis. Tasnim Tabassum, Md. Appel Mahmud Pranto, Mursheda Nusrat Della*, A.B.M. Kabir Hossain, Md. Arafat Hossain, Partha Pratim Debnath. IEEE COMPAS 2025, Islamic University, Kushtia, October 23-24, 2025. (Co-author)
+5. Screening depression among university students utilizing GHQ-12 and machine learning. Nasirul Mumenin, A.B.M. Kabir Hossain, Md. Rubel Basar, Md. Arafat Hossain, Partha Pratim Debnath, Mursheda Nusrat Della*, Md. Mahmudul Hasan Rashed, Afzal Hossen, Md. Sejan Hossain. Heliyon, Vol 10, Issue 17, September 15, 2024, e37182. (Co-author)
+6. Developing Generalized Models for COVID-19 Detection and Outbreak Prediction by AI Approach. Partha Pratim Debnath, Erona Moumita, Mursheda Nusrat Della*, Md. Lincon Hasan. Journal of Engineering and Applied Science, Vol 07, No 01, pp. 72–80, December 2023. (Co-author)
+7. Blockchain Based Secure and Decentralized Smart Licensing of Charging Vehicles for Rajshahi City Corporation. Md. Momenul Haque, Subrata Kumer Paul, Md. Kamrul Islam, Mursheda Nusrat Della*, Rakhi Rani Paul, Sultan Fahim. IEEE ICICT4SD 2023, Dhaka, pp. 204-208. (Co-author)
+8. A Real-time Attendance Monitoring System for Election Voter using Face Recognition Approach. Md. Momenul Haque, Subrata Kumer Paul, Rakhi Rani Paul, Mursheda Nusrat Della*, Md. Kamrul Islam. IEEE CS BDC Summer Symposium 2023, 26-27 May 2023. (Co-author)
+9. EEG-Based Multi-Class Emotion Recognition using Hybrid LSTM Approach. Md. Momenul Haque, Subrata Kumer Paul, Rakhi Rani Paul, Mursheda Nusrat Della*, Md. Kamrul Islam, Sultan Fahim. IJIRCST, Vol 11, Issue 3, May 2023. (Co-author)
+10. D-Shaped Photonic Crystal Fiber Plasmonic Bio-Sensor for Biomaterial Detection. Nazmul Hussain, K.M. Mesbahuzzaman Asik, Rauffur Rahim, Nazmul Hasan Nakib, Mursheda Nusrat Della*. IJCSPUB, Volume 13, Issue 2, May 2023. (Co-author)
 
 PROJECTS
 - Student Management System Website (Java, PHP, JavaScript, HTML) — Programmer, Testing, Idea.
-- Attendance Management System (PHP, JavaScript, HTML) — Programmer.
+- Attendance Management System (PHP, JavaScript, HTML) — Programmer, Testing, Idea.
 - Campus Network Design (Cisco Packet Tracer, CLI) — Programmer.
 - Password-Based Door Lock Security System (Arduino Uno, C++, Keypad) — Programmer, Designer, Idea.
 - Blood Pressure Monitoring System (Arduino Uno, C++) — Programmer, Designer, Idea.
@@ -99,9 +90,13 @@ Workshop, RCC (2018, 3 months).
 
 PERSONAL SKILLS
 Organizational leadership, project management, strong decision-making, complex
-problem solving, graphics design, public speaking, service-focused.
+problem solving, graphics design, public worker, service-focused.
 
 LANGUAGES
 English: professional fluency, IELTS overall 6.50 (Listening 6, Reading 6.5,
 Writing 6, Speaking 6.5). Bangla: native.
+
+REFERENCES
+- Partha Pratim Debnath, Associate Professor & Head, Department of ICE, Bangladesh Army University of Engineering & Technology (BAUET). Phone: +8801746377565
+- A.B.M Kabir Hossain, Assistant Professor, Department of ICE, Bangladesh Army University of Engineering & Technology (BAUET). Phone: +8801913910146
 `.trim()

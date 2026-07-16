@@ -631,6 +631,8 @@ section {
   display: inline-block;
   padding-right: 0.14em;
   margin-right: -0.08em;
+  padding-bottom: 0.15em;
+  margin-bottom: -0.15em;
 }
 .hero__lede {
   margin-top: 30px;

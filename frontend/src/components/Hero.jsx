@@ -1,7 +1,6 @@
 import CoherenceField from './CoherenceField.jsx'
 import useCountUp from '../hooks/useCountUp.js'
 import useParallax from '../hooks/useParallax.js'
-import photo from '../assets/della-photo.png'
 
 function Stat({ value, suffix, label }) {
   const [ref, display] = useCountUp(value, { suffix })
@@ -35,14 +34,14 @@ export default function Hero() {
           </p>
           <div className="hero__actions">
             <a href="#research" className="btn primary">Explore my research</a>
-            <a href="/Mursheda-Nusrat-Della-CV.pdf" className="btn" download>
+            <a href="/CV%20Of%20Mursheda%20Nusrat%20Della.2026.pdf" className="btn" download>
               <span className="btn__icon" aria-hidden="true">↓</span>
               Download CV
             </a>
             <a href="#contact" className="btn btn--ghost">Say hello</a>
           </div>
           <div className="hero__stats">
-            <Stat value={9} label="Publications & conference papers" />
+            <Stat value={10} label="Publications & conference papers" />
             <Stat value={3} suffix="+" label="Years lecturing, ICE Dept" />
             <Stat value={5} label="Research interests, one thread: AI" />
           </div>
@@ -52,12 +51,12 @@ export default function Hero() {
           <div className="hero__portrait-frame">
             <span className="hero__portrait-ring" aria-hidden="true" />
             <div className="hero__portrait-photo">
-              <img src={photo} alt="Portrait of Mursheda Nusrat Della" />
+              <img src="/della.jpeg" alt="Portrait of Mursheda Nusrat Della" />
             </div>
           </div>
           <div className="hero__portrait-tag">
             <span className="dot" />
-            M.Sc. in progress, CSE — RUET
+            M.Sc. CSE (RUET) & M.Sc. ICT (IU)
           </div>
         </div>
       </div>

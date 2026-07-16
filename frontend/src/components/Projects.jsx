@@ -7,7 +7,7 @@ const PROJECTS = [
   {
     name: 'Attendance Management System',
     stack: 'PHP, JavaScript, HTML',
-    role: 'Programmer',
+    role: 'Programmer · Testing · Idea',
   },
   {
     name: 'Campus Network Design',
